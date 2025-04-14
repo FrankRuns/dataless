@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataless Analytics: Synthetic Data Course (MVP)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #007bff;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 1.8em;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dataless Analytics: Synthetic Data Course (MVP)</h1>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p><strong>Mission:</strong> This course is designed to empower learners with the skills to create and reason with synthetic data, a foundational competency in the future of analytics. As data becomes the competitive advantage for companies—more so than ML or AI models themselves—synthetic data offers a powerful way to innovate while addressing privacy, scarcity, and bias challenges.</p>
+            <p><strong>Main Goal:</strong> By the end of this course, you’ll be able to generate synthetic datasets programmatically, understand their properties, and evaluate their quality using metrics like the F1 score. You’ll apply these skills to a real-world scenario: predicting late deliveries with synthetic data.</p>
+        </section>
+
+        <section id="video">
+            <h2>Understanding Late Deliveries</h2>
+            <p>In this video, we’ll explore the concept of late deliveries in e-commerce, including common causes, impacts on businesses, and how synthetic data can help model and predict delivery delays.</p>
+            <div class="video-container">
+                <!-- Replace with your YouTube video ID -->
+                <iframe src="https://www.youtube.com/embed/[Your-Video-ID]?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="colab">
+            <h2>Hands-On Exercise: Generate and Evaluate Synthetic Data</h2>
+            <p>Now it’s your turn! Use this Google Colab notebook to generate a synthetic dataset of e-commerce deliveries, predict late deliveries using a pre-built model, and optimize your F1 score.</p>
+            <a href="[Your-Colab-Notebook-Link]" target="_blank" class="button">Open in Google Colab</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Dataless Analytics Course (MVP) | <a href="mailto:[your-email@example.com]" style="color: white;">Contact Us</a> | <a href="https://github.com/FrankRuns/dataless-analytics-course/issues" target="_blank" style="color: white;">Submit Feedback</a></p>
+    </footer>
+</body>
+</html>
