@@ -16,7 +16,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            padding-bottom: 60px; /* Space for footer */
+            padding-bottom: 60px;
         }
         header {
             text-align: center;
@@ -41,21 +41,6 @@
             line-height: 1.6;
             font-size: 1.1em;
         }
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            height: 0;
-            overflow: hidden;
-            max-width: 100%;
-            background: #000;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
         a {
             color: #007bff;
             text-decoration: none;
@@ -76,12 +61,12 @@
             background-color: #0056b3;
             text-decoration: none;
         }
-        .lesson-links {
+        .phase-links {
             list-style: none;
             padding: 0;
         }
-        .lesson-links li {
-            margin: 10px 0;
+        .phase-links li {
+            margin: 15px 0;
         }
         footer {
             text-align: center;
@@ -104,12 +89,14 @@
             <p><strong>Main Goal:</strong> By the end of this course, you’ll be able to generate synthetic datasets programmatically (both tabular and text-based for LLMs), understand their properties, and evaluate their quality. You’ll apply these skills to a real-world scenario and focus heavily on how achieving good data unlocks good decision-making.</p>
         </section>
 
-        <section id="lessons">
-            <h2>Lessons</h2>
-            <p>Explore the lessons below to dive deeper into synthetic data generation and evaluation. Each lesson includes a video, an explanation, and a hands-on exercise in Google Colab.</p>
-            <ul class="lesson-links">
-                <li><a href="lesson1.html" class="button">Lesson 1: Introduction to Synthetic Data</a></li>
-                <li><a href="lesson2.html" class="button">Lesson 2: Optimizing F1 Scores with Synthetic Data</a></li>
+        <section id="phases">
+            <h2>Course Phases</h2>
+            <p>Explore the phases below to learn how to think like a strategist and act like a builder using synthetic data. Each phase includes lessons with videos, explanations, and hands-on exercises in Google Colab.</p>
+            <ul class="phase-links">
+                <li><a href="phase0.html" class="button">Phase 0: Welcome to the War Room</a></li>
+                <li><a href="phase1.html" class="button">Phase 1: Synthetic Data as a Thinking Tool</a></li>
+                <li><a href="phase2.html" class="button">Phase 2: The Arenas (Simulation Challenges)</a></li>
+                <li><a href="phase3.html" class="button">Phase 3: Capstone – Design for Judgment</a></li>
             </ul>
         </section>
     </div>
