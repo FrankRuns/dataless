@@ -16,6 +16,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            padding-bottom: 60px; /* Space for footer */
         }
         header {
             text-align: center;
@@ -75,13 +76,18 @@
             background-color: #0056b3;
             text-decoration: none;
         }
+        .lesson-links {
+            list-style: none;
+            padding: 0;
+        }
+        .lesson-links li {
+            margin: 10px 0;
+        }
         footer {
             text-align: center;
             padding: 20px 0;
             background-color: #333;
             color: white;
-            position: fixed;
-            bottom: 0;
             width: 100%;
         }
     </style>
@@ -107,10 +113,13 @@
             </div>
         </section>
 
-        <section id="colab">
-            <h2>Hands-On Exercise: Generate and Evaluate Synthetic Data</h2>
-            <p>Now it’s your turn! Use this Google Colab notebook to generate a synthetic dataset of e-commerce deliveries, predict late deliveries using a pre-built model, and optimize your F1 score.</p>
-            <a href="https://colab.research.google.com/drive/10m9ytF3Z60qCCYqZT02CzaTYe92cfjYs#scrollTo=cZ59pZhVlvRO" target="_blank" class="button">Open in Google Colab</a>
+        <section id="lessons">
+            <h2>Lessons</h2>
+            <p>Explore the lessons below to dive deeper into synthetic data generation and evaluation. Each lesson includes a video, an explanation, and a hands-on exercise in Google Colab.</p>
+            <ul class="lesson-links">
+                <li><a href="lesson1.html" class="button">Lesson 1: Introduction to Synthetic Data</a></li>
+                <li><a href="lesson2.html" class="button">Lesson 2: Optimizing F1 Scores with Synthetic Data</a></li>
+            </ul>
         </section>
     </div>
 
