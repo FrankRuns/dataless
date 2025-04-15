@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: Introduction to Synthetic Data - Dataless Analytics Course (MVP)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: 60px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #007bff;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 1.8em;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lesson 1: Introduction to Synthetic Data</h1>
+    </header>
+
+    <div class="container">
+        <section id="description">
+            <h2>Description</h2>
+            <p>In this lesson, you’ll learn the basics of synthetic data: what it is, why it’s important, and how it can be used in analytics. We’ll explore the benefits of synthetic data, such as addressing privacy concerns and enabling experimentation, and set the stage for generating your own synthetic datasets.</p>
+        </section>
+
+        <section id="video">
+            <h2>Video: What is Synthetic Data?</h2>
+            <p>This video introduces the concept of synthetic data, its applications in industries like e-commerce, and how it can be used to model scenarios like late deliveries without real customer data.</p>
+            <div class="video-container">
+                <!-- Replace with your YouTube video ID for Lesson 1 -->
+                <iframe src="https://www.youtube.com/embed/[Your-Lesson1-Video-ID]?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="explanation">
+            <h2>Explanation</h2>
+            <p>Synthetic data is artificially generated data that mimics the statistical properties of real data without containing any real user information. For example, in e-commerce, synthetic data can represent customer orders, delivery distances, and warehouse loads, allowing us to model late deliveries while protecting customer privacy. In this lesson, you’ll generate a synthetic dataset of e-commerce deliveries, including features like distance, warehouse load, and delivery time slot, and use a pre-built model to predict late deliveries.</p>
+        </section>
+
+        <section id="colab">
+            <h2>Hands-On Exercise</h2>
+            <p>Apply what you’ve learned by generating a synthetic dataset and evaluating its quality with an F1 score. Use the Google Colab notebook below to create your dataset, predict late deliveries, and experiment with different configurations to optimize your score.</p>
+            <a href="https://colab.research.google.com/drive/10m9ytF3Z60qCCYqZT02CzaTYe92cfjYs#scrollTo=cZ59pZhVlvRO" target="_blank" class="button">Open in Google Colab</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Dataless Analytics Course (MVP) | <a href="mailto:[your-email@example.com]" style="color: white;">Contact Us</a> | <a href="https://github.com/FrankRuns/dataless-analytics-course/issues" target="_blank" style="color: white;">Submit Feedback</a> | <a href="index.html" style="color: white;">Back to Home</a></p>
+    </footer>
+</body>
+</html>
