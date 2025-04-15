@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 1: Synthetic Data as a Thinking Tool - Dataless Analytics Course (MVP)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: 60px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #007bff;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 1.8em;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phase 1: Synthetic Data as a Thinking Tool</h1>
+    </header>
+
+    <div class="container">
+        <section id="description">
+            <h2>Description</h2>
+            <p>In this phase, you’ll learn how to generate realistic, purpose-driven synthetic data using Python and spreadsheets. We’ll cover the tools and techniques to create data that mimics real-world scenarios, enabling you to think through problems strategically.</p>
+        </section>
+
+        <section id="video">
+            <h2>Video: Generating Synthetic Data with Python and Spreadsheets</h2>
+            <p>This video walks you through the process of creating synthetic data using Python libraries like `faker` and `numpy`, as well as spreadsheet tools like Excel or Google Sheets, to simulate realistic business scenarios.</p>
+            <div class="video-container">
+                <!-- Replace with your YouTube video ID for Phase 1 -->
+                <iframe src="https://www.youtube.com/embed/[Your-Phase1-Video-ID]?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="explanation">
+            <h2>Explanation</h2>
+            <p>Synthetic data must be purpose-driven—designed to reflect the specific problem you’re solving. For example, to analyze late deliveries, you might generate data with features like delivery distance, warehouse load, and time slot, ensuring the distributions (e.g., lognormal for distances) and relationships (e.g., evening slots are riskier) align with real-world patterns. In this exercise, you’ll use Python to generate a synthetic dataset and explore its properties, preparing you for the simulation challenges ahead.</p>
+        </section>
+
+        <section id="colab">
+            <h2>Hands-On Exercise</h2>
+            <p>Generate a synthetic dataset of customer orders with realistic features like order volume, delivery distance, and customer type. Use the Google Colab notebook below to create this dataset and analyze its statistical properties.</p>
+            <a href="[Your-Phase1-Colab-Link]" target="_blank" class="button">Open in Google Colab</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Dataless Analytics Course (MVP) | <a href="mailto:[your-email@example.com]" style="color: white;">Contact Us</a> | <a href="https://github.com/FrankRuns/dataless-analytics-course/issues" target="_blank" style="color: white;">Submit Feedback</a> | <a href="index.html" style="color: white;">Back to Home</a></p>
+    </footer>
+</body>
+</html>
