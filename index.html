@@ -37,9 +37,20 @@
             border-bottom: 2px solid #007bff;
             padding-bottom: 10px;
         }
-        p {
+        p, blockquote, ul {
             line-height: 1.6;
             font-size: 1.1em;
+            margin-bottom: 1em;
+        }
+        blockquote {
+            background-color: #e9ecef;
+            border-left: 4px solid #007bff;
+            padding: 10px 20px;
+            font-style: italic;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
         }
         a {
             color: #007bff;
@@ -55,7 +66,7 @@
             background-color: #007bff;
             color: white;
             border-radius: 5px;
-            margin-top: 20px;
+            margin-top: 10px;
         }
         .button:hover {
             background-color: #0056b3;
@@ -85,27 +96,62 @@
     <div class="container">
         <section id="introduction">
             <h2>The Premise</h2>
-            <p>Most courses start with a dataset. This one starts with your brain. Because real-world analysts don’t always get clean data. They get messy questions, half-built dashboards, and pressure to deliver. This course builds the skill most data professionals skip: reasoning from first principles—before the data even exists.</p>
+            <p>Most courses start with a dataset.<br>
+            This one starts with your brain.</p>
+            <p>Because real-world analysts don’t always get clean data. They get:</p>
+            <ul>
+                <li>Messy questions</li>
+                <li>Half-built dashboards</li>
+                <li>Stakeholders breathing down their necks</li>
+            </ul>
+            <p>This course builds the rare skill most data professionals skip:</p>
+            <blockquote>
+                Reasoning from first principles — <strong>before</strong> the data even exists.
+            </blockquote>
         </section>
 
         <section id="why-it-matters">
             <h2>Why This Matters</h2>
-            <p>We live in an era of accelerated AI, but the old rule still applies: Garbage in, garbage out. LLMs and models are only as smart as the data they’re fed. The real edge? Crafting good data on purpose. This course teaches you how to think like a data-generating machine.</p>
+            <p>We live in an era of accelerated AI, but the old rule still applies:</p>
+            <blockquote>
+                Garbage in, garbage out.
+            </blockquote>
+            <p>LLMs and models are only as smart as the data they’re fed.<br>
+            The real edge? Crafting good data <strong>on purpose</strong>.</p>
+            <p>This course teaches you how to think like a data-generating machine.</p>
         </section>
 
         <section id="what-you-learn">
             <h2>What You'll Learn</h2>
-            <p>You’ll learn to generate synthetic datasets (both tabular and text), reverse-engineer dashboards and models, expose your priors, and evaluate the quality of data by how well it maps to reality. You’ll learn to think clearly—and communicate even more clearly.</p>
+            <p>By the end of this course, you'll know how to:</p>
+            <ul>
+                <li>Generate synthetic datasets (tabular + text-based)</li>
+                <li>Reverse-engineer dashboards and models</li>
+                <li>Surface your priors and challenge your assumptions</li>
+                <li>Evaluate whether data maps well to reality</li>
+                <li>Communicate insights like a strategist</li>
+            </ul>
         </section>
 
         <section id="how-it-works">
             <h2>How It Works</h2>
-            <p>You’ll be given a model, a dashboard, or a decision scenario. Your job? Invent the data that justifies it. Work backwards from output to input, just like you have to in real life.</p>
+            <p>Instead of starting with a dataset, you’ll be given:</p>
+            <ul>
+                <li>A model</li>
+                <li>A dashboard</li>
+                <li>A decision scenario</li>
+            </ul>
+            <p>Your job?</p>
+            <blockquote>
+                Invent the data that justifies it.<br>
+                Work backwards from output to input — just like in real life.
+            </blockquote>
         </section>
 
         <section id="course-phases">
             <h2>Course Phases</h2>
-            <p>Each phase is built to help you think like a strategist and act like a builder. Expect lessons, videos, and hands-on challenges in Google Colab.</p>
+            <p>Each phase is built to help you think like a strategist and act like a builder.<br>
+            Expect lessons, videos, and hands-on challenges in Google Colab.</p>
             <ul class="phase-links">
                 <li><a href="phase0.html" class="button">Phase 0: Welcome to the War Room</a></li>
                 <li><a href="phase1.html" class="button">Phase 1: Synthetic Data as a Thinking Tool</a></li>
@@ -116,12 +162,25 @@
 
         <section id="who-it-is-for">
             <h2>Who It's For</h2>
-            <p>This course is for data scientists, analysts, PMs, and operators who want to get dangerously good at thinking. If you’ve ever been told “just build the model” and thought “there’s got to be a better way”—you’re in the right place.</p>
+            <p>This course is for:</p>
+            <ul>
+                <li>Data scientists & analysts</li>
+                <li>Product managers & ops leads</li>
+                <li>Anyone who’s ever been told “just build the model” and thought:<br><em>there’s got to be a better way</em></li>
+            </ul>
         </section>
 
         <section id="real-payoff">
             <h2>The Real Payoff</h2>
-            <p>This isn’t just about better models. It’s about better conversations—with stakeholders, with your team, with your tools. If you can think clearly before the data shows up, you’ll lead the room when it does.</p>
+            <p>This isn’t just about better models. It’s about:</p>
+            <ul>
+                <li>Better conversations with stakeholders</li>
+                <li>Smarter collaboration with teammates</li>
+                <li>Confidence in the chaos before data even exists</li>
+            </ul>
+            <blockquote>
+                If you can think clearly before the data shows up, you’ll lead the room when it does.
+            </blockquote>
         </section>
     </div>
 
